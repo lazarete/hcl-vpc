@@ -1,4 +1,3 @@
-
 resource "aws_route_table" "private" {
   count  = var.az_count
   vpc_id = aws_vpc.main.id
